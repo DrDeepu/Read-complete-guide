@@ -1,8 +1,9 @@
 import "./ExpenseItem.css";
-
+import Something from './ExpenseDate.js'
 function ExpenseItem() {
   return (
     <div>
+        <Something/>
       <h2>Expense Item</h2>
       <div class="expense_main">
           <div>
