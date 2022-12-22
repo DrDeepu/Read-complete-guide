@@ -1,0 +1,17 @@
+import "./ExpenseItem.css";
+
+function ExpenseItem() {
+  return (
+    <div>
+      <h2>Expense Item</h2>
+      <div class="expense_main">
+          <div>
+              This is the first Inner Div
+          </div>
+        <p>This is just some color</p>
+      </div>
+    </div>
+  );
+}
+
+export default ExpenseItem;
