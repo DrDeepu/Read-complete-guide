@@ -1,0 +1,25 @@
+.expense_main {
+  border: solid white;
+  border-radius: 20%;
+  width: 10%; /* or 100px */
+  border-width: 10;
+  position: relative;
+  color: white;
+  text-align: center;
+  background-color: black;
+  animation-name:infinite;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes infinite{
+    0%{
+        color:yellow;
+    }
+    50%
+    {
+        color : red;
+    }
+    100%{
+        color: blue;
+    }
+}
